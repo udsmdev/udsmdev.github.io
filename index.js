@@ -8,10 +8,10 @@ loginButton.addEventListener("click", (e) => {
     const password = loginForm.password.value;
 
     if (username === "Marina" && password === "Marina2@23") {
-        alert("You have successfully logged in. To continue please copy & Paste ");
+        alert("You have successfully logged in.");
         location.reload();
-    } if (username === "Fjord" && password === "Fjord2@23") {
-        alert("You have successfully logged in. To continue please copy & Paste ");
+    } if (username === "admin" && password === "Fjord2@23") {
+        alert("You have successfully logged in.");
         location.reload();
     } else {
         loginErrorMsg.style.opacity = 1;
